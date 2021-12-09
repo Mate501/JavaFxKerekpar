@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="491.0" prefWidth="754.0" spacing="10.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+            <!-- ... -->
+    <HBox prefHeight="678.0" prefWidth="754.0" />
+
+            <!-- ... -->
+        <ListView fixedCellSize="1.0" maxHeight="450.0" maxWidth="450.0" prefHeight="200.0" prefWidth="667.0">
+            <VBox.margin>
+                <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+            </VBox.margin>
+        </ListView>
+    <Button fx:id="btnFajlBeolvasasa" mnemonicParsing="false" text="Fájl Beolvasása" />
+   <Button fx:id="btnKilep" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" text="Kilép" />
+   <Button fx:id="btnHibasAdatTorlese" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" text="Hibas adat törlése" />
+   <TableView prefHeight="200.0" prefWidth="200.0">
+     <columns>
+       <TableColumn prefWidth="75.0" text="C1" />
+       <TableColumn prefWidth="75.0" text="C2" />
+     </columns>
+   </TableView>
+
+</VBox>
